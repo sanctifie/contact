@@ -1,0 +1,974 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simplemobiletools.contacts.pro.debug"
+4    android:installLocation="auto"
+5    android:versionCode="54"
+6    android:versionName="6.5.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:8:5-68
+12-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:8:22-66
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:9:5-74
+13-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:9:22-72
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:10:5-71
+14-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:10:22-69
+15    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+15-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:11:5-72
+15-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:11:22-70
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:12:5-80
+16-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+17-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:13:5-70
+17-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:13:22-68
+18    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+18-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:14:5-76
+18-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:14:22-74
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:15:5-67
+19-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:15:22-65
+20    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+20-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:16:5-76
+20-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:16:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:17:5-76
+21-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:17:22-74
+22    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+22-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:18:5-74
+22-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:18:22-72
+23
+24    <uses-feature
+24-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:20:5-22:35
+25        android:name="android.hardware.telephony"
+25-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:21:9-50
+26        android:required="false" />
+26-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:22:9-33
+27    <uses-feature
+27-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:11:5-13:36
+28        android:name="android.hardware.faketouch"
+28-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:12:9-50
+29        android:required="false" />
+29-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:13:9-33
+30    <uses-feature
+30-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:14:5-16:36
+31        android:name="android.hardware.screen.portrait"
+31-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:15:9-56
+32        android:required="false" />
+32-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:16:9-33
+33
+34    <application
+34-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:28:5-509:19
+35        android:name="com.simplemobiletools.contacts.pro.App"
+35-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:29:9-28
+36        android:allowBackup="true"
+36-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:30:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:31:9-43
+40        android:label="@string/app_launcher_name"
+40-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:32:9-50
+41        android:roundIcon="@mipmap/ic_launcher"
+41-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:33:9-48
+42        android:supportsRtl="true"
+42-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:35:9-35
+43        android:theme="@style/AppTheme" >
+43-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:34:9-40
+44        <activity
+44-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:37:9-39:49
+45            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity"
+45-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:38:13-54
+46            android:theme="@style/SplashTheme" />
+46-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:39:13-47
+47
+48        <activity-alias
+48-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:497:9-508:26
+49            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Grey_black"
+49-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:498:13-65
+50            android:enabled="false"
+50-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:499:13-36
+51            android:icon="@mipmap/ic_launcher_grey_black"
+51-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:500:13-58
+52            android:roundIcon="@mipmap/ic_launcher_grey_black"
+52-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:501:13-63
+53            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+53-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:502:13-64
+54            <intent-filter>
+54-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+55-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+57-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+58            </intent-filter>
+59        </activity-alias>
+60        <activity-alias
+60-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:484:9-495:26
+61            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Blue_grey"
+61-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:485:13-64
+62            android:enabled="false"
+62-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:486:13-36
+63            android:icon="@mipmap/ic_launcher_blue_grey"
+63-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:487:13-57
+64            android:roundIcon="@mipmap/ic_launcher_blue_grey"
+64-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:488:13-62
+65            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+65-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:489:13-64
+66            <intent-filter>
+66-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+67-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+69-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+70            </intent-filter>
+71        </activity-alias>
+72        <activity-alias
+72-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:471:9-482:26
+73            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Brown"
+73-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:472:13-60
+74            android:enabled="false"
+74-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:473:13-36
+75            android:icon="@mipmap/ic_launcher_brown"
+75-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:474:13-53
+76            android:roundIcon="@mipmap/ic_launcher_brown"
+76-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:475:13-58
+77            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+77-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:476:13-64
+78            <intent-filter>
+78-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+79-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+81-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+82            </intent-filter>
+83        </activity-alias>
+84        <activity-alias
+84-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:458:9-469:26
+85            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Deep_orange"
+85-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:459:13-66
+86            android:enabled="false"
+86-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:460:13-36
+87            android:icon="@mipmap/ic_launcher_deep_orange"
+87-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:461:13-59
+88            android:roundIcon="@mipmap/ic_launcher_deep_orange"
+88-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:462:13-64
+89            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+89-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:463:13-64
+90            <intent-filter>
+90-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+91-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+93-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+94            </intent-filter>
+95        </activity-alias>
+96        <activity-alias
+96-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:446:9-456:26
+97            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Orange"
+97-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:447:13-61
+98            android:enabled="true"
+98-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:448:13-35
+99            android:icon="@mipmap/ic_launcher"
+99-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:449:13-47
+100            android:roundIcon="@mipmap/ic_launcher"
+100-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:450:13-52
+101            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+101-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:451:13-64
+102            <intent-filter>
+102-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+103-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+105-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+106            </intent-filter>
+107        </activity-alias>
+108        <activity-alias
+108-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:433:9-444:26
+109            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Amber"
+109-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:434:13-60
+110            android:enabled="false"
+110-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:435:13-36
+111            android:icon="@mipmap/ic_launcher_amber"
+111-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:436:13-53
+112            android:roundIcon="@mipmap/ic_launcher_amber"
+112-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:437:13-58
+113            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+113-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:438:13-64
+114            <intent-filter>
+114-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+115                <action android:name="android.intent.action.MAIN" />
+115-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+115-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+117-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+118            </intent-filter>
+119        </activity-alias>
+120        <activity-alias
+120-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:420:9-431:26
+121            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Yellow"
+121-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:421:13-61
+122            android:enabled="false"
+122-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:422:13-36
+123            android:icon="@mipmap/ic_launcher_yellow"
+123-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:423:13-54
+124            android:roundIcon="@mipmap/ic_launcher_yellow"
+124-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:424:13-59
+125            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+125-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:425:13-64
+126            <intent-filter>
+126-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+127                <action android:name="android.intent.action.MAIN" />
+127-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+127-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+128
+129                <category android:name="android.intent.category.LAUNCHER" />
+129-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+129-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+130            </intent-filter>
+131        </activity-alias>
+132        <activity-alias
+132-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:407:9-418:26
+133            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Lime"
+133-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:408:13-59
+134            android:enabled="false"
+134-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:409:13-36
+135            android:icon="@mipmap/ic_launcher_lime"
+135-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:410:13-52
+136            android:roundIcon="@mipmap/ic_launcher_lime"
+136-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:411:13-57
+137            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+137-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:412:13-64
+138            <intent-filter>
+138-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+139                <action android:name="android.intent.action.MAIN" />
+139-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+139-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+140
+141                <category android:name="android.intent.category.LAUNCHER" />
+141-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+141-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+142            </intent-filter>
+143        </activity-alias>
+144        <activity-alias
+144-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:394:9-405:26
+145            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Light_green"
+145-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:395:13-66
+146            android:enabled="false"
+146-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:396:13-36
+147            android:icon="@mipmap/ic_launcher_light_green"
+147-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:397:13-59
+148            android:roundIcon="@mipmap/ic_launcher_light_green"
+148-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:398:13-64
+149            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+149-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:399:13-64
+150            <intent-filter>
+150-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+151                <action android:name="android.intent.action.MAIN" />
+151-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+151-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+152
+153                <category android:name="android.intent.category.LAUNCHER" />
+153-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+153-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+154            </intent-filter>
+155        </activity-alias>
+156        <activity-alias
+156-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:381:9-392:26
+157            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Green"
+157-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:382:13-60
+158            android:enabled="false"
+158-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:383:13-36
+159            android:icon="@mipmap/ic_launcher_green"
+159-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:384:13-53
+160            android:roundIcon="@mipmap/ic_launcher_green"
+160-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:385:13-58
+161            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+161-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:386:13-64
+162            <intent-filter>
+162-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+163                <action android:name="android.intent.action.MAIN" />
+163-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+163-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+164
+165                <category android:name="android.intent.category.LAUNCHER" />
+165-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+165-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+166            </intent-filter>
+167        </activity-alias>
+168        <activity-alias
+168-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:368:9-379:26
+169            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Teal"
+169-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:369:13-59
+170            android:enabled="false"
+170-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:370:13-36
+171            android:icon="@mipmap/ic_launcher_teal"
+171-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:371:13-52
+172            android:roundIcon="@mipmap/ic_launcher_teal"
+172-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:372:13-57
+173            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+173-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:373:13-64
+174            <intent-filter>
+174-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+175                <action android:name="android.intent.action.MAIN" />
+175-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+175-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+176
+177                <category android:name="android.intent.category.LAUNCHER" />
+177-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+177-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+178            </intent-filter>
+179        </activity-alias>
+180        <activity-alias
+180-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:355:9-366:26
+181            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Cyan"
+181-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:356:13-59
+182            android:enabled="false"
+182-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:357:13-36
+183            android:icon="@mipmap/ic_launcher_cyan"
+183-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:358:13-52
+184            android:roundIcon="@mipmap/ic_launcher_cyan"
+184-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:359:13-57
+185            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+185-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:360:13-64
+186            <intent-filter>
+186-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+187                <action android:name="android.intent.action.MAIN" />
+187-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+187-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+188
+189                <category android:name="android.intent.category.LAUNCHER" />
+189-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+189-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+190            </intent-filter>
+191        </activity-alias>
+192        <activity-alias
+192-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:342:9-353:26
+193            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Light_blue"
+193-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:343:13-65
+194            android:enabled="false"
+194-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:344:13-36
+195            android:icon="@mipmap/ic_launcher_light_blue"
+195-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:345:13-58
+196            android:roundIcon="@mipmap/ic_launcher_light_blue"
+196-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:346:13-63
+197            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+197-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:347:13-64
+198            <intent-filter>
+198-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+199                <action android:name="android.intent.action.MAIN" />
+199-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+199-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+200
+201                <category android:name="android.intent.category.LAUNCHER" />
+201-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+201-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+202            </intent-filter>
+203        </activity-alias>
+204        <activity-alias
+204-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:329:9-340:26
+205            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Blue"
+205-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:330:13-59
+206            android:enabled="false"
+206-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:331:13-36
+207            android:icon="@mipmap/ic_launcher_blue"
+207-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:332:13-52
+208            android:roundIcon="@mipmap/ic_launcher_blue"
+208-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:333:13-57
+209            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+209-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:334:13-64
+210            <intent-filter>
+210-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+211                <action android:name="android.intent.action.MAIN" />
+211-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+211-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+212
+213                <category android:name="android.intent.category.LAUNCHER" />
+213-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+213-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+214            </intent-filter>
+215        </activity-alias>
+216        <activity-alias
+216-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:316:9-327:26
+217            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Indigo"
+217-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:317:13-61
+218            android:enabled="false"
+218-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:318:13-36
+219            android:icon="@mipmap/ic_launcher_indigo"
+219-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:319:13-54
+220            android:roundIcon="@mipmap/ic_launcher_indigo"
+220-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:320:13-59
+221            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+221-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:321:13-64
+222            <intent-filter>
+222-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+223                <action android:name="android.intent.action.MAIN" />
+223-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+223-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+224
+225                <category android:name="android.intent.category.LAUNCHER" />
+225-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+225-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+226            </intent-filter>
+227        </activity-alias>
+228        <activity-alias
+228-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:303:9-314:26
+229            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Deep_purple"
+229-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:304:13-66
+230            android:enabled="false"
+230-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:305:13-36
+231            android:icon="@mipmap/ic_launcher_deep_purple"
+231-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:306:13-59
+232            android:roundIcon="@mipmap/ic_launcher_deep_purple"
+232-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:307:13-64
+233            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+233-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:308:13-64
+234            <intent-filter>
+234-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+235                <action android:name="android.intent.action.MAIN" />
+235-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+235-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+236
+237                <category android:name="android.intent.category.LAUNCHER" />
+237-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+237-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+238            </intent-filter>
+239        </activity-alias>
+240        <activity-alias
+240-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:290:9-301:26
+241            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Purple"
+241-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:291:13-61
+242            android:enabled="false"
+242-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:292:13-36
+243            android:icon="@mipmap/ic_launcher_purple"
+243-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:293:13-54
+244            android:roundIcon="@mipmap/ic_launcher_purple"
+244-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:294:13-59
+245            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+245-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:295:13-64
+246            <intent-filter>
+246-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+247                <action android:name="android.intent.action.MAIN" />
+247-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+247-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+248
+249                <category android:name="android.intent.category.LAUNCHER" />
+249-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+249-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+250            </intent-filter>
+251        </activity-alias>
+252        <activity-alias
+252-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:277:9-288:26
+253            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Pink"
+253-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:278:13-59
+254            android:enabled="false"
+254-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:279:13-36
+255            android:icon="@mipmap/ic_launcher_pink"
+255-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:280:13-52
+256            android:roundIcon="@mipmap/ic_launcher_pink"
+256-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:281:13-57
+257            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+257-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:282:13-64
+258            <intent-filter>
+258-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+259                <action android:name="android.intent.action.MAIN" />
+259-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+259-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+260
+261                <category android:name="android.intent.category.LAUNCHER" />
+261-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+261-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+262            </intent-filter>
+263        </activity-alias>
+264        <activity-alias
+264-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:264:9-275:26
+265            android:name="com.simplemobiletools.contacts.pro.activities.SplashActivity.Red"
+265-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:265:13-58
+266            android:enabled="false"
+266-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:266:13-36
+267            android:icon="@mipmap/ic_launcher_red"
+267-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:267:13-51
+268            android:roundIcon="@mipmap/ic_launcher_red"
+268-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:268:13-56
+269            android:targetActivity="com.simplemobiletools.contacts.pro.activities.SplashActivity" >
+269-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:269:13-64
+270            <intent-filter>
+270-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+271                <action android:name="android.intent.action.MAIN" />
+271-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+271-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+272
+273                <category android:name="android.intent.category.LAUNCHER" />
+273-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+273-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+274            </intent-filter>
+275        </activity-alias>
+276
+277        <activity android:name="com.simplemobiletools.contacts.pro.activities.MainActivity" >
+277-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:41:9-60:20
+277-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:42:13-52
+278            <meta-data
+278-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:43:13-45:53
+279                android:name="android.app.default_searchable"
+279-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:44:17-62
+280                android:resource="@xml/searchable" />
+280-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:45:17-51
+281
+282            <intent-filter>
+282-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:47:13-49:29
+283                <action android:name="android.intent.action.SEARCH" />
+283-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:17-70
+283-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:25-68
+284            </intent-filter>
+285            <intent-filter>
+285-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:51:13-59:29
+286                <action android:name="android.intent.action.VIEW" />
+286-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:17-68
+286-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:25-66
+287
+288                <data android:mimeType="text/directory" />
+288-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+288-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+289                <data android:mimeType="text/vcard" />
+289-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+289-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+290                <data android:mimeType="text/x-vcard" />
+290-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+290-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+291
+292                <category android:name="android.intent.category.DEFAULT" />
+292-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+292-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+293            </intent-filter>
+294        </activity>
+295        <activity
+295-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:62:9-65:68
+296            android:name="com.simplemobiletools.contacts.pro.activities.SettingsActivity"
+296-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:63:13-56
+297            android:label="@string/settings"
+297-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:64:13-45
+298            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.MainActivity" />
+298-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:65:13-66
+299        <activity
+299-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:67:9-69:68
+300            android:name="com.simplemobiletools.contacts.pro.activities.GroupContactsActivity"
+300-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:68:13-61
+301            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.MainActivity" />
+301-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:69:13-66
+302        <activity
+302-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:71:9-103:20
+303            android:name="com.simplemobiletools.contacts.pro.activities.ViewContactActivity"
+303-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:72:13-59
+304            android:label="@string/details"
+304-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:73:13-44
+305            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.MainActivity" >
+305-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:74:13-66
+306            <intent-filter>
+306-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:76:13-83:29
+307                <action android:name="android.intent.action.VIEW" />
+307-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:17-68
+307-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:25-66
+308
+309                <category android:name="android.intent.category.DEFAULT" />
+309-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+309-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+310
+311                <data android:mimeType="vnd.android.cursor.dir/person" />
+311-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+311-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+312                <data android:mimeType="vnd.android.cursor.dir/contact" />
+312-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+312-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+313                <data android:mimeType="vnd.android.cursor.item/group" />
+313-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+313-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+314            </intent-filter>
+315            <intent-filter>
+315-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:85:13-92:29
+316                <action android:name="android.intent.action.VIEW" />
+316-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:17-68
+316-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:25-66
+317
+318                <category android:name="android.intent.category.DEFAULT" />
+318-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+318-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+319
+320                <data android:mimeType="vnd.android.cursor.item/person" />
+320-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+320-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+321                <data android:mimeType="vnd.android.cursor.item/contact" />
+321-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+321-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+322                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+322-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+322-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+323            </intent-filter>
+324            <intent-filter>
+324-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:94:13-102:29
+325                <action android:name="com.android.contacts.action.QUICK_CONTACT" />
+325-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:95:17-83
+325-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:95:25-81
+326                <action android:name="android.provider.action.QUICK_CONTACT" />
+326-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:96:17-79
+326-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:96:25-77
+327
+328                <category android:name="android.intent.category.DEFAULT" />
+328-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+328-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+329
+330                <data android:mimeType="vnd.android.cursor.item/contact" />
+330-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+330-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+331                <data android:mimeType="vnd.android.cursor.item/person" />
+331-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+331-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+332            </intent-filter>
+333        </activity>
+334        <activity
+334-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:105:9-143:20
+335            android:name="com.simplemobiletools.contacts.pro.activities.EditContactActivity"
+335-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:106:13-59
+336            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.MainActivity" >
+336-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:107:13-66
+337            <intent-filter>
+337-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:109:13-122:29
+338                <action android:name="android.intent.action.EDIT" />
+338-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:110:17-68
+338-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:110:25-66
+339
+340                <category android:name="android.intent.category.DEFAULT" />
+340-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+340-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+341
+342                <data
+342-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+343                    android:host="contacts"
+343-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:114:21-44
+344                    android:mimeType="vnd.android.cursor.item/person" />
+344-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+345                <data
+345-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+346                    android:host="com.android.contacts"
+346-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:114:21-44
+347                    android:mimeType="vnd.android.cursor.item/contact" />
+347-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+348                <data
+348-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+349                    android:host="com.android.contacts"
+349-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:114:21-44
+350                    android:mimeType="vnd.android.cursor.item/raw_contact" />
+350-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+351            </intent-filter>
+352            <intent-filter>
+352-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:124:13-131:29
+353                <action android:name="android.intent.action.INSERT" />
+353-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:125:17-70
+353-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:125:25-68
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+355-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+356
+357                <data android:mimeType="vnd.android.cursor.dir/person" />
+357-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+357-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+358                <data android:mimeType="vnd.android.cursor.dir/contact" />
+358-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+358-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+359                <data android:mimeType="vnd.android.cursor.dir/raw_contact" />
+359-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+359-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+360            </intent-filter>
+361            <intent-filter>
+361-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:133:13-137:29
+362                <action android:name="android.intent.action.EDIT" />
+362-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:110:17-68
+362-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:110:25-66
+363
+364                <category android:name="android.intent.category.DEFAULT" />
+364-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+364-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+365
+366                <data android:mimeType="vnd.android.cursor.item/group" />
+366-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+366-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+367            </intent-filter>
+368            <intent-filter>
+368-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:138:13-142:29
+369                <action android:name="android.intent.action.INSERT" />
+369-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:125:17-70
+369-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:125:25-68
+370
+371                <category android:name="android.intent.category.DEFAULT" />
+371-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+371-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+372
+373                <data android:mimeType="vnd.android.cursor.dir/group" />
+373-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+373-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+374            </intent-filter>
+375        </activity>
+376        <activity
+376-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:145:9-171:20
+377            android:name="com.simplemobiletools.contacts.pro.activities.InsertOrEditContactActivity"
+377-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:146:13-67
+378            android:label="@string/select_contact" >
+378-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:147:13-51
+379            <meta-data
+379-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:43:13-45:53
+380                android:name="android.app.default_searchable"
+380-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:44:17-62
+381                android:resource="@xml/searchable" />
+381-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:45:17-51
+382
+383            <intent-filter>
+383-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:47:13-49:29
+384                <action android:name="android.intent.action.SEARCH" />
+384-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:17-70
+384-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:25-68
+385            </intent-filter>
+386            <intent-filter>
+386-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:157:13-164:29
+387                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+387-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:158:17-78
+387-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:158:25-76
+388
+389                <category android:name="android.intent.category.DEFAULT" />
+389-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+389-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+390
+391                <data android:mimeType="vnd.android.cursor.item/person" />
+391-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+391-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+392                <data android:mimeType="vnd.android.cursor.item/contact" />
+392-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+392-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+393                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+393-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+393-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+394            </intent-filter>
+395            <intent-filter>
+395-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:166:13-170:29
+396                <action android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT" />
+396-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:167:17-92
+396-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:167:25-90
+397
+398                <category android:name="android.intent.category.DEFAULT" />
+398-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+398-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+399
+400                <data android:scheme="mailto" />
+400-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+400-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:169:23-46
+401            </intent-filter>
+402        </activity>
+403        <activity
+403-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:173:9-195:20
+404            android:name="com.simplemobiletools.contacts.pro.activities.SelectContactActivity"
+404-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:174:13-61
+405            android:label="@string/select_contact" >
+405-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:175:13-51
+406            <meta-data
+406-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:43:13-45:53
+407                android:name="android.app.default_searchable"
+407-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:44:17-62
+408                android:resource="@xml/searchable" />
+408-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:45:17-51
+409
+410            <intent-filter>
+410-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:47:13-49:29
+411                <action android:name="android.intent.action.SEARCH" />
+411-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:17-70
+411-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:25-68
+412            </intent-filter>
+413            <intent-filter>
+413-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:185:13-194:29
+414                <action android:name="android.intent.action.PICK" />
+414-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:186:17-68
+414-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:186:25-66
+415
+416                <category android:name="android.intent.category.DEFAULT" />
+416-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+416-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+417
+418                <data android:mimeType="vnd.android.cursor.dir/contact" />
+418-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+418-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+419                <data android:mimeType="vnd.android.cursor.dir/person" />
+419-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+419-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+420                <data android:mimeType="vnd.android.cursor.dir/phone_v2" />
+420-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+420-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+421                <data android:mimeType="vnd.android.cursor.dir/phone" />
+421-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+421-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+422                <data android:mimeType="vnd.android.cursor.dir/email_v2" />
+422-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+422-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+423            </intent-filter>
+424        </activity>
+425        <activity
+425-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:197:9-200:68
+426            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+426-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:198:13-82
+427            android:label="@string/about"
+427-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:199:13-42
+428            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.MainActivity" />
+428-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:200:13-66
+429        <activity
+429-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:202:9-205:98
+430            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
+430-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:203:13-84
+431            android:label="@string/third_party_licences"
+431-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:204:13-57
+432            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+432-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:205:13-96
+433        <activity
+433-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:207:9-210:72
+434            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+434-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:208:13-90
+435            android:label="@string/customize_colors"
+435-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:209:13-53
+436            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.SettingsActivity" />
+436-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:210:13-70
+437        <activity
+437-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:212:9-215:98
+438            android:name="com.simplemobiletools.commons.activities.FAQActivity"
+438-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:213:13-80
+439            android:label="@string/frequently_asked_questions"
+439-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:214:13-63
+440            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+440-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:215:13-96
+441        <activity
+441-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:217:9-220:72
+442            android:name="com.simplemobiletools.contacts.pro.activities.ManageBlockedNumbersActivity"
+442-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:218:13-68
+443            android:label="@string/blocked_numbers"
+443-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:219:13-52
+444            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.SettingsActivity" />
+444-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:220:13-70
+445        <activity
+445-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:222:9-239:20
+446            android:name="com.simplemobiletools.contacts.pro.activities.DialpadActivity"
+446-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:223:13-55
+447            android:label="@string/dialpad"
+447-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:224:13-44
+448            android:parentActivityName="com.simplemobiletools.contacts.pro.activities.MainActivity" >
+448-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:225:13-66
+449            <intent-filter>
+449-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:227:13-232:29
+450                <action android:name="android.intent.action.DIAL" />
+450-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:228:17-68
+450-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:228:25-66
+451
+452                <category android:name="android.intent.category.DEFAULT" />
+452-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+452-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+453
+454                <data android:scheme="tel" />
+454-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+454-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:169:23-46
+455            </intent-filter>
+456            <intent-filter>
+456-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:234:13-238:29
+457                <action android:name="android.intent.action.DIAL" />
+457-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:228:17-68
+457-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:228:25-66
+458
+459                <category android:name="android.intent.category.DEFAULT" />
+459-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+459-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+460            </intent-filter>
+461        </activity>
+462        <activity
+462-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:241:9-252:20
+463            android:name="com.simplemobiletools.contacts.pro.activities.DialerActivity"
+463-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:242:13-54
+464            android:label="@string/dialer"
+464-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:243:13-43
+465            android:theme="@style/Theme.Transparent" >
+465-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:244:13-53
+466            <intent-filter>
+466-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:246:13-251:29
+467                <action android:name="android.intent.action.CALL" />
+467-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:247:17-68
+467-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:247:25-66
+468
+469                <category android:name="android.intent.category.DEFAULT" />
+469-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+469-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+470
+471                <data android:scheme="tel" />
+471-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+471-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:169:23-46
+472            </intent-filter>
+473        </activity>
+474
+475        <provider
+476            android:name="androidx.core.content.FileProvider"
+476-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:255:13-62
+477            android:authorities="com.simplemobiletools.contacts.pro.debug.provider"
+477-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:256:13-60
+478            android:exported="false"
+478-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:257:13-37
+479            android:grantUriPermissions="true" >
+479-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:258:13-47
+480            <meta-data
+480-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:259:13-261:57
+481                android:name="android.support.FILE_PROVIDER_PATHS"
+481-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:260:17-67
+482                android:resource="@xml/provider_paths" />
+482-->C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:261:17-55
+483        </provider>
+484
+485        <receiver
+485-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:19:9-26:20
+486            android:name="com.simplemobiletools.commons.receivers.SharedThemeReceiver"
+486-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:20:13-87
+487            android:exported="true" >
+487-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:21:13-36
+488            <intent-filter>
+488-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:22:13-25:29
+489                <action android:name="com.simplemobiletools.commons.SHARED_THEME_ACTIVATED" />
+489-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:23:17-95
+489-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:23:25-92
+490                <action android:name="com.simplemobiletools.commons.SHARED_THEME_UPDATED" />
+490-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:24:17-93
+490-->[com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:24:25-90
+491            </intent-filter>
+492        </receiver>
+493
+494        <service
+494-->[androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+495            android:name="androidx.room.MultiInstanceInvalidationService"
+495-->[androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+496            android:exported="false" />
+496-->[androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+497    </application>
+498
+499</manifest>

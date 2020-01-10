@@ -1,0 +1,742 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:254:9-262:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:258:13-47
+	android:authorities
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:256:13-60
+	android:exported
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:257:13-37
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:255:13-62
+manifest
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+MERGED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\cedf7ab9681104e6ac2ddfd08b14f148\constraintlayout-2.0.0-beta2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\6fd57339325d6fbdc12cc99ce822e64d\core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\66ae37baeab31b838be0f63178250eec\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.andrognito.patternlockview:patternlockview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\86409f878d16ce6bddfc8acd69e5382c\jetified-patternlockview-1.0.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\eb1664346a3706eed677346d172ba42d\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ajalt.reprint:core:3.3.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\62efbba6fadc55d403d7709a48a7bc66\core-3.3.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.duolingo.open:rtl-viewpager:1.0.3] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9736a076950835294239806615ad996c\jetified-rtl-viewpager-1.0.3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f3e7f4681d7b3043a51702f49990a201\glide-4.10.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\0415cafbd4873b18d5d52f44087dc03f\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f6dbc1108d953c4ce18c11c96ec95bfc\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\aa20099dafdf4fc8cfee6daa5c2fb5fe\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\e83db12a0acf27c54c3850480829d0fe\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\65a871c0d5c8eb57f4d3542e105e5ca8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c57f398600647a18039473fed230a77a\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4cc058853806774309c2d151f587e956\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\7873b3b050908304ba2d09944ea9ac6c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\128f62518a276c7200d030db0bc35c87\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\a976b403c6b95709ffdeba26ca8b44a1\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9f5849a69acefb02ac00fdbb5b5abb1e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\ac1d2e8d35605b393082c71ee7fa3d96\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4f46d454db6ecd8fd764b34eeb161017\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\af1019587dc6a8297c7904db5d68706f\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\96652d7a64b62e0f03007b6c0390caf9\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\d3056de92fc31fb9b3585056646e1eb7\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\36558cfce40faabe83b09a9f12e7dc29\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\b1b4fe0857fa241beae05e7d5158884d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\0e289557d4340f3560715e92a13eaa25\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\060bf564cf035f959e508efea01ba21b\core-runtime-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9d3061ea185159b05453c7f7c1837de0\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5c576b51a1b0a4305750d261ce836a6a\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\ebc79cc7836754e7a7a31df4a17eb6a5\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5e9e8278625ae2029c1771c7c0f50805\gifdecoder-4.10.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4f0990bf3312fbc933ff7a3f1636fbbb\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\335a960fb2ae03c6c6e21b869f55d6d3\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9a7e790de663c84bcf8176d8c947b14a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9b9c518c5f58b42f871ef05423bea9af\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5ee275138046fd25e745ccc0c0dfc18d\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\6f27677041d2580f1cb10c8ed798d105\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+	package
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:5:5-49
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:2:1-510:12
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:6:5-35
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:8:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:10:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:11:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:13:5-70
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:14:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:16:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.MANAGE_OWN_CALLS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:18:22-72
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:20:5-22:35
+	android:required
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:21:9-50
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:24:5-26:30
+REJECTED from [com.github.ajalt.reprint:core:3.3.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\62efbba6fadc55d403d7709a48a7bc66\core-3.3.0\AndroidManifest.xml:9:5-74
+	tools:node
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:26:9-28
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:25:9-58
+application
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:28:5-509:19
+MERGED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:18:5-27:19
+MERGED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:18:5-27:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\cedf7ab9681104e6ac2ddfd08b14f148\constraintlayout-2.0.0-beta2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\cedf7ab9681104e6ac2ddfd08b14f148\constraintlayout-2.0.0-beta2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\66ae37baeab31b838be0f63178250eec\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\66ae37baeab31b838be0f63178250eec\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f3e7f4681d7b3043a51702f49990a201\glide-4.10.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f3e7f4681d7b3043a51702f49990a201\glide-4.10.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9d3061ea185159b05453c7f7c1837de0\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9d3061ea185159b05453c7f7c1837de0\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5e9e8278625ae2029c1771c7c0f50805\gifdecoder-4.10.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5e9e8278625ae2029c1771c7c0f50805\gifdecoder-4.10.0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:32:9-50
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:33:9-48
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:31:9-43
+	android:allowBackup
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:30:9-35
+	android:theme
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:34:9-40
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:29:9-28
+activity#com.simplemobiletools.contacts.pro.activities.SplashActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:37:9-39:49
+	android:theme
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:39:13-47
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:38:13-54
+activity#com.simplemobiletools.contacts.pro.activities.MainActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:41:9-60:20
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:42:13-52
+meta-data#android.app.default_searchable
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:43:13-45:53
+	android:resource
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:45:17-51
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:44:17-62
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:47:13-49:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:17-70
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:48:25-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:text/directory+data:mimeType:text/vcard+data:mimeType:text/x-vcard
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:51:13-59:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:17-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:52:25-66
+data
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:17-58
+	android:host
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:114:21-44
+	android:scheme
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:169:23-46
+	android:mimeType
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:54:23-56
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:17-75
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:58:27-73
+activity#com.simplemobiletools.contacts.pro.activities.SettingsActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:62:9-65:68
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:65:13-66
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:64:13-45
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:63:13-56
+activity#com.simplemobiletools.contacts.pro.activities.GroupContactsActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:67:9-69:68
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:69:13-66
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:68:13-61
+activity#com.simplemobiletools.contacts.pro.activities.ViewContactActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:71:9-103:20
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:74:13-66
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:72:13-59
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/contact+data:mimeType:vnd.android.cursor.dir/person+data:mimeType:vnd.android.cursor.item/group
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:76:13-83:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/contact+data:mimeType:vnd.android.cursor.item/person+data:mimeType:vnd.android.cursor.item/raw_contact
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:85:13-92:29
+intent-filter#action:name:android.provider.action.QUICK_CONTACT+action:name:com.android.contacts.action.QUICK_CONTACT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/contact+data:mimeType:vnd.android.cursor.item/person
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:94:13-102:29
+action#com.android.contacts.action.QUICK_CONTACT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:95:17-83
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:95:25-81
+action#android.provider.action.QUICK_CONTACT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:96:25-77
+activity#com.simplemobiletools.contacts.pro.activities.EditContactActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:105:9-143:20
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:107:13-66
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:106:13-59
+intent-filter#action:name:android.intent.action.EDIT+category:name:android.intent.category.DEFAULT+data:host:com.android.contacts+data:host:com.android.contacts+data:host:contacts+data:mimeType:vnd.android.cursor.item/contact+data:mimeType:vnd.android.cursor.item/person+data:mimeType:vnd.android.cursor.item/raw_contact
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:109:13-122:29
+action#android.intent.action.EDIT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:110:17-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:110:25-66
+intent-filter#action:name:android.intent.action.INSERT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/contact+data:mimeType:vnd.android.cursor.dir/person+data:mimeType:vnd.android.cursor.dir/raw_contact
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:124:13-131:29
+action#android.intent.action.INSERT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:125:17-70
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:125:25-68
+intent-filter#action:name:android.intent.action.EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/group
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:133:13-137:29
+intent-filter#action:name:android.intent.action.INSERT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/group
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:138:13-142:29
+activity#com.simplemobiletools.contacts.pro.activities.InsertOrEditContactActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:145:9-171:20
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:147:13-51
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:146:13-67
+intent-filter#action:name:android.intent.action.INSERT_OR_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/contact+data:mimeType:vnd.android.cursor.item/person+data:mimeType:vnd.android.cursor.item/raw_contact
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:157:13-164:29
+action#android.intent.action.INSERT_OR_EDIT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:158:17-78
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:158:25-76
+intent-filter#action:name:com.android.contacts.action.SHOW_OR_CREATE_CONTACT+category:name:android.intent.category.DEFAULT+data:scheme:mailto
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:166:13-170:29
+action#com.android.contacts.action.SHOW_OR_CREATE_CONTACT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:167:17-92
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:167:25-90
+activity#com.simplemobiletools.contacts.pro.activities.SelectContactActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:173:9-195:20
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:175:13-51
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:174:13-61
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/contact+data:mimeType:vnd.android.cursor.dir/email_v2+data:mimeType:vnd.android.cursor.dir/person+data:mimeType:vnd.android.cursor.dir/phone+data:mimeType:vnd.android.cursor.dir/phone_v2
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:185:13-194:29
+action#android.intent.action.PICK
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:186:17-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:186:25-66
+activity#com.simplemobiletools.commons.activities.AboutActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:197:9-200:68
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:200:13-66
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:199:13-42
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:198:13-82
+activity#com.simplemobiletools.commons.activities.LicenseActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:202:9-205:98
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:205:13-96
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:204:13-57
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:203:13-84
+activity#com.simplemobiletools.commons.activities.CustomizationActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:207:9-210:72
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:210:13-70
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:209:13-53
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:208:13-90
+activity#com.simplemobiletools.commons.activities.FAQActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:212:9-215:98
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:215:13-96
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:214:13-63
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:213:13-80
+activity#com.simplemobiletools.contacts.pro.activities.ManageBlockedNumbersActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:217:9-220:72
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:220:13-70
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:219:13-52
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:218:13-68
+activity#com.simplemobiletools.contacts.pro.activities.DialpadActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:222:9-239:20
+	android:parentActivityName
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:225:13-66
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:224:13-44
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:223:13-55
+intent-filter#action:name:android.intent.action.DIAL+category:name:android.intent.category.DEFAULT+data:scheme:tel
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:227:13-232:29
+action#android.intent.action.DIAL
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:228:17-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:228:25-66
+intent-filter#action:name:android.intent.action.DIAL+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:234:13-238:29
+activity#com.simplemobiletools.contacts.pro.activities.DialerActivity
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:241:9-252:20
+	android:label
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:243:13-43
+	android:theme
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:244:13-53
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:242:13-54
+intent-filter#action:name:android.intent.action.CALL+category:name:android.intent.category.DEFAULT+data:scheme:tel
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:246:13-251:29
+action#android.intent.action.CALL
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:247:17-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:247:25-66
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Red
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:264:9-275:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:266:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:269:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:268:13-56
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:267:13-51
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:265:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:271:13-274:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:17-68
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:272:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:17-76
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:273:27-74
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Pink
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:277:9-288:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:279:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:282:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:281:13-57
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:280:13-52
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:278:13-59
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Purple
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:290:9-301:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:292:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:295:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:294:13-59
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:293:13-54
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:291:13-61
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Deep_purple
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:303:9-314:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:305:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:308:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:307:13-64
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:306:13-59
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:304:13-66
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Indigo
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:316:9-327:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:318:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:321:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:320:13-59
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:319:13-54
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:317:13-61
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Blue
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:329:9-340:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:331:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:334:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:333:13-57
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:332:13-52
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:330:13-59
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Light_blue
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:342:9-353:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:344:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:347:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:346:13-63
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:345:13-58
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:343:13-65
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Cyan
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:355:9-366:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:357:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:360:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:359:13-57
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:358:13-52
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:356:13-59
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Teal
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:368:9-379:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:370:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:373:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:372:13-57
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:371:13-52
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:369:13-59
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Green
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:381:9-392:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:383:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:386:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:385:13-58
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:384:13-53
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:382:13-60
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Light_green
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:394:9-405:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:396:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:399:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:398:13-64
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:397:13-59
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:395:13-66
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Lime
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:407:9-418:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:409:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:412:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:411:13-57
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:410:13-52
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:408:13-59
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Yellow
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:420:9-431:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:422:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:425:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:424:13-59
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:423:13-54
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:421:13-61
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Amber
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:433:9-444:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:435:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:438:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:437:13-58
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:436:13-53
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:434:13-60
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Orange
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:446:9-456:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:448:13-35
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:451:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:450:13-52
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:449:13-47
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:447:13-61
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Deep_orange
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:458:9-469:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:460:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:463:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:462:13-64
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:461:13-59
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:459:13-66
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Brown
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:471:9-482:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:473:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:476:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:475:13-58
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:474:13-53
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:472:13-60
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Blue_grey
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:484:9-495:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:486:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:489:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:488:13-62
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:487:13-57
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:485:13-64
+activity-alias#com.simplemobiletools.contacts.pro.activities.SplashActivity.Grey_black
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:497:9-508:26
+	android:enabled
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:499:13-36
+	android:targetActivity
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:502:13-64
+	android:roundIcon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:501:13-63
+	android:icon
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:500:13-58
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:498:13-65
+uses-sdk
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+MERGED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\cedf7ab9681104e6ac2ddfd08b14f148\constraintlayout-2.0.0-beta2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\cedf7ab9681104e6ac2ddfd08b14f148\constraintlayout-2.0.0-beta2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\6fd57339325d6fbdc12cc99ce822e64d\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\6fd57339325d6fbdc12cc99ce822e64d\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\66ae37baeab31b838be0f63178250eec\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\66ae37baeab31b838be0f63178250eec\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.andrognito.patternlockview:patternlockview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\86409f878d16ce6bddfc8acd69e5382c\jetified-patternlockview-1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.andrognito.patternlockview:patternlockview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\86409f878d16ce6bddfc8acd69e5382c\jetified-patternlockview-1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\eb1664346a3706eed677346d172ba42d\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\eb1664346a3706eed677346d172ba42d\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.ajalt.reprint:core:3.3.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\62efbba6fadc55d403d7709a48a7bc66\core-3.3.0\AndroidManifest.xml:7:5-44
+MERGED from [com.github.ajalt.reprint:core:3.3.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\62efbba6fadc55d403d7709a48a7bc66\core-3.3.0\AndroidManifest.xml:7:5-44
+MERGED from [com.duolingo.open:rtl-viewpager:1.0.3] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9736a076950835294239806615ad996c\jetified-rtl-viewpager-1.0.3\AndroidManifest.xml:21:5-23:41
+MERGED from [com.duolingo.open:rtl-viewpager:1.0.3] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9736a076950835294239806615ad996c\jetified-rtl-viewpager-1.0.3\AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f3e7f4681d7b3043a51702f49990a201\glide-4.10.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f3e7f4681d7b3043a51702f49990a201\glide-4.10.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\0415cafbd4873b18d5d52f44087dc03f\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\0415cafbd4873b18d5d52f44087dc03f\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f6dbc1108d953c4ce18c11c96ec95bfc\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\f6dbc1108d953c4ce18c11c96ec95bfc\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\aa20099dafdf4fc8cfee6daa5c2fb5fe\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\aa20099dafdf4fc8cfee6daa5c2fb5fe\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\e83db12a0acf27c54c3850480829d0fe\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\e83db12a0acf27c54c3850480829d0fe\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\65a871c0d5c8eb57f4d3542e105e5ca8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\65a871c0d5c8eb57f4d3542e105e5ca8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c57f398600647a18039473fed230a77a\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c57f398600647a18039473fed230a77a\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4cc058853806774309c2d151f587e956\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4cc058853806774309c2d151f587e956\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\7873b3b050908304ba2d09944ea9ac6c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\7873b3b050908304ba2d09944ea9ac6c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\128f62518a276c7200d030db0bc35c87\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\128f62518a276c7200d030db0bc35c87\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\a976b403c6b95709ffdeba26ca8b44a1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\a976b403c6b95709ffdeba26ca8b44a1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9f5849a69acefb02ac00fdbb5b5abb1e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9f5849a69acefb02ac00fdbb5b5abb1e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\ac1d2e8d35605b393082c71ee7fa3d96\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\ac1d2e8d35605b393082c71ee7fa3d96\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4f46d454db6ecd8fd764b34eeb161017\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4f46d454db6ecd8fd764b34eeb161017\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\af1019587dc6a8297c7904db5d68706f\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\af1019587dc6a8297c7904db5d68706f\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\96652d7a64b62e0f03007b6c0390caf9\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\96652d7a64b62e0f03007b6c0390caf9\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\61a4322994bff311c55a1e748aab7916\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\d3056de92fc31fb9b3585056646e1eb7\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\d3056de92fc31fb9b3585056646e1eb7\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\36558cfce40faabe83b09a9f12e7dc29\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\36558cfce40faabe83b09a9f12e7dc29\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\b1b4fe0857fa241beae05e7d5158884d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\b1b4fe0857fa241beae05e7d5158884d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\0e289557d4340f3560715e92a13eaa25\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\0e289557d4340f3560715e92a13eaa25\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\060bf564cf035f959e508efea01ba21b\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\060bf564cf035f959e508efea01ba21b\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9d3061ea185159b05453c7f7c1837de0\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9d3061ea185159b05453c7f7c1837de0\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5c576b51a1b0a4305750d261ce836a6a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5c576b51a1b0a4305750d261ce836a6a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\ebc79cc7836754e7a7a31df4a17eb6a5\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\ebc79cc7836754e7a7a31df4a17eb6a5\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5e9e8278625ae2029c1771c7c0f50805\gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5e9e8278625ae2029c1771c7c0f50805\gifdecoder-4.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4f0990bf3312fbc933ff7a3f1636fbbb\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\4f0990bf3312fbc933ff7a3f1636fbbb\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\335a960fb2ae03c6c6e21b869f55d6d3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\335a960fb2ae03c6c6e21b869f55d6d3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9a7e790de663c84bcf8176d8c947b14a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9a7e790de663c84bcf8176d8c947b14a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9b9c518c5f58b42f871ef05423bea9af\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\9b9c518c5f58b42f871ef05423bea9af\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5ee275138046fd25e745ccc0c0dfc18d\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\5ee275138046fd25e745ccc0c0dfc18d\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\6f27677041d2580f1cb10c8ed798d105\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\6f27677041d2580f1cb10c8ed798d105\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:259:13-261:57
+	android:resource
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:261:17-55
+	android:name
+		ADDED from C:\Users\Steigend\AndroidStudioProjects\contact\app\src\main\AndroidManifest.xml:260:17-67
+uses-feature#android.hardware.faketouch
+ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:12:9-50
+uses-feature#android.hardware.screen.portrait
+ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:15:9-56
+receiver#com.simplemobiletools.commons.receivers.SharedThemeReceiver
+ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:19:9-26:20
+	android:exported
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:20:13-87
+intent-filter#action:name:com.simplemobiletools.commons.SHARED_THEME_ACTIVATED+action:name:com.simplemobiletools.commons.SHARED_THEME_UPDATED
+ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:22:13-25:29
+action#com.simplemobiletools.commons.SHARED_THEME_ACTIVATED
+ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:23:17-95
+	android:name
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:23:25-92
+action#com.simplemobiletools.commons.SHARED_THEME_UPDATED
+ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:24:17-93
+	android:name
+		ADDED from [com.simplemobiletools:commons:5.20.6] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\c7fea8922efef66cbe045ca5d026c120\jetified-commons-5.20.6\AndroidManifest.xml:24:25-90
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.2] C:\Users\Steigend\.gradle\caches\transforms-2\files-2.1\3039eb3beefe725756892d0bd61f23bf\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
